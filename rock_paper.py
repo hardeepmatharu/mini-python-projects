@@ -17,19 +17,19 @@ while True:
 
     if user_input == 'rock' and computer_pick == 'scissors':
         user_wins += 1
-        print('You won')
+        print('You won!')
         continue
     elif user_input == 'scissors' and computer_pick == 'paper':
         user_wins += 1
-        print('You won')
+        print('You won!')
         continue
     elif user_input == 'paper' and computer_pick == 'rock':
         user_wins += 1
-        print('You won')
+        print('You won!')
         continue
     else:
         computer_wins += 1
-        print('Computer won')
+        print('Computer won!')
 print('Computer won:', computer_wins , 'times.')
 print('You won:', user_wins, 'times.') 
-print('Good Bye')
+print('Goodbye!')
