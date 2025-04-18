@@ -19,7 +19,7 @@ def generate_problem():
     right = random.randint(MIN_OPERAND, MAX_OPERAND)
     operator = random.choice(OPERATORS)
     expr = str(left) + ' ' + operator + ' ' + str(right)
-    answer = eval(expr)
+    answer = eval(expr) # eval evaluates the expression and gives the answer
     return expr,answer
 
 for i in range(TOTAL_PROBLEMS):    
